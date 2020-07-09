@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+section.banner{
+    background-size: contain;
+}
+h1,h2,h3,h4,h5,h6,p, ul, li,span, table, tr, td{
+    font-family: 'Nunito', sans-serif !important;
+}
+div.col {
+    text-transform: uppercase;
+    border: 1px solid #ffff;
+    margin: 0;
+    padding: 21px;
+    color: #fff;
+    background: #018456a8;
+    width: 25%;
+    display: inline-block;
+    font-size: 28px;
+}
+h4 {
+    color: #ffff !important;
+}
+h3.h3-about{
+    background: #42affaeb;
+    padding: 16px;
+    color: #fff !important;
+}
+.about{
+    background:#42a9f1ba !important;
+    padding-top: 0 !important;
+}
+.col-1{
+    background: #ff2c2d99 !important;
+}
+.col-2{
+    background: #2888c7d4 !important;
+}
+.fa, .fas {
+    font-size: 53px;
+    margin-bottom: 24px;
+}
+h4 {
+    margin-bottom: 4px !important;
+}
+.what-is-img {
+    top: 12em !important;
+    display: block;
+    text-align: left;
+    position: absolute;
+    background: #fffc;
+    padding: 23px;
+    font-size: 25px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 44px;
+    left: -20%;
+    width: 80%;
+    color: #000;
+}
+.vision {
+    top: -1em !important;
+    display: block;
+    position: absolute;
+    background: #003e7d78;
+    padding: 19px;
+    font-size: 27px;
+    left: -18%;
+    width: 91%;
+    color: #fff;
+    border: 3px solid #ffff;
+}
+.mission {
+    top: 7em !important;
+    display: block;
+    position: absolute;
+    background: #a200bf9e;
+    font-size: 27px;
+    left: 46%;
+    width: 68%;
+    color: #fff;
+    padding: 12px 71px 12px 12px;
+    border: 3px solid #ffff;
+}
+.what-we-do {
+    top: 15em !important;
+    display: block;
+    position: absolute;
+    background: #bf001bb8;
+    z-index: -1;
+    padding: 8px;
+    font-size: 27px;
+    left: -18%;
+    width: 92%;
+    color: #fff;
+    float: right;
+    border: 2px solid #ffffff;
+}
+
+h5{
+    color: #fff !important;
+}
+div.solid span {
+    text-transform: uppercase;
+    display: block;
+    border: 1px solid #fff;
+    border-bottom: none;
+    margin: 0 auto;
+    padding: 13px 0;
+    color: #fff;
+    font-size: 16px !important;
+    background: linear-gradient(45deg, #e40000, #ff00d5);
+}
+div.solid span:last-child {
+    background: linear-gradient(45deg, #e40000, #ff00d5);
+    border-bottom: 1px solid #fff;
+}
+span.protection {
+    width: 85%;
+    background: #ff00d5;
+}
+span.debt {
+    width: 71%;
+    background: #5ea500;
+}
+span.emergency {
+    width: 56%;
+    background: #f50000;
+}
+span.invest {
+    width: 41%;
+    background: #007bef;
+}
+.solid {
+    padding: 23px;
+    width: 40%;
+    top: 1.8em;
+    display: inline-block;
+}
+.solid h6 {
+    font-size: 22px;
+}
+h6, h3 {
+    color: #fff !important;
+}
+
+.healthcare, .healthcare-types {
+    position: absolute;
+    left: 20%;
+    text-align: left;
+    font-size: 26px;
+    width: 93%;
+    padding: 24px;
+    background: #1b91ffe6;
+    color: #fff;
+}
+.healthcare-types {
+    top: 0em;
+    font-size: 19px;
+    width: 93%;
+    padding-right: 13%;
+    background: none;
+}
+.healthcare-types h6 {
+    width: 100%;
+    padding: 17px;
+    background: #002d58;
+    margin: 0 !important;
+}
+.short, .senior, .long{
+    padding: 17px;
+    width: 100%;
+}
+.short {
+    background: #007befc7;
+}
+.senior {
+    background: #c50000e3;
+}
+.long {
+    background: #880013f7;
+}
+.white {
+    width: 142%;
+    height: 5px;
+    background: #fff;
+    position: absolute;
+    top: -6.8em;
+    left: 34px;
+}
+.we-are {
+    background: #fff;
+    color: #101561;
+    font-weight: lighter;
+    position: absolute;
+    top: -8em;
+    font-size: 20px;
+    padding-left: 104px;
+    padding-right: 30px;
+    width: 93%;
+    left: -26%;
+    text-align: left;
+}
+p.we-are-title {
+    padding: 16px;
+    padding-left: 100px;
+    width: 88%;
+    left: 1%;
+    position: absolute;
+    top: -71px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: linear-gradient(45deg, #007befed, transparent);
+}
+p.our-goal {
+    background: #ff0000;
+    color: #fff;
+    width: 101%;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.what-is-img img {
+    margin: 0;
+    margin-bottom: -17px;
+}
+.what-is-img h5 {
+    color: #fff !important;
+    font-size: 44px;
+    font-weight: lighter;
+    margin-bottom: 0 !important;
+    background: #2d3092;
+    width: 101%;
+    padding: 15px;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    margin: 0 0 20px 0;
+    color: #fff;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-shadow: none;
+    word-wrap: break-word;
+}
+.why-fail {
+    top: 7em !important;
+    display: block;
+    position: absolute;
+    background: #ffffff;
+    padding: 19px;
+    font-size: 20px;
+    left: -20%;
+    width: 51%;
+    padding-bottom: 0;
+    padding-left: 57px;
+    color: #000;
+    border: 3px solid #ffff;
+    text-align: left;
+    padding-top: 0;
+}
+.why-fail-img {
+    position: absolute;
+    z-index: -1;
+    left: 34%;
+    width: 91%;
+    top: 14px;
+}
+.head-p{
+    text-transform: uppercase;
+    background: #00c5c5;
+    padding: 15px;
+    width: 93%;
+    margin: -5px 0 !important;
+    padding-left: 100px;
+    left: -10%;
+    position: absolute;
+    top: -14%;
+    color: #fff;
+}
+span.pros {
+    color: red;
+    font-weight: bold;
+}
+p.why {
+    background: #00c5c5;
+    width: 103%;
+    padding: 13px;
+    text-transform: uppercase;
+    color: #fff;
+}
+p.most {
+    background: red;
+    color: #fff;
+    padding: 14px;
+    width: 111%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.unstable {
+    left: -27%;
+}
+.unstable .invest {
+    width: 30%;
+}
+.unstable .emergency {
+    font-size: 10px !important;
+    width: 20%;
+}
+
+.unstable .protection {
+    width: 36%;
+}
+.unstable .health {
+    font-size: 12px !important;
+    width: 26%;
+}
+p.prep {
+    font-size: 27px;
+}
+span.str {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #e70017;
+    font-size: 36px;
+}
+p.build-it-right {
+    position: absolute;
+    background: linear-gradient(45deg, #007bef, #fc00be00);
+    padding: 12px;
+    padding-left: 106px;
+    text-align: left;
+    font-size: 34px;
+    left: -25%;
+    width: 122%;
+}
+span.str {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffeb00;
+    font-size: 36px;
+    display: block;
+}
+span.best {
+    background: #ff005f;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+p.ans {
+    background: #0095fb;
+    text-align: left;
+    padding: 24px;
+    font-weight: bold;
+    color: #ffff;
+    padding-right: 7em;
+    width: 71%;
+    float: right;
+    margin-bottom: 0;
+}
+.sec-protection {
+    font-size: 28px;
+    width: 79%;
+    position: absolute;
+    right: -31%;
+    padding: 17px;
+    text-align: left;
+    top: -2em;
+    padding-bottom: 0;
+}
+.debt-manage {
+    position: absolute;
+    top: 17em;
+    right: -9em;
+    background: #beff0063;
+    padding: 16px 21px;
+    padding-right: 108px;
+    color: #fff;
+    font-size: 26px;
+}
+.debt-manage h1 {
+    font-size: 59px !important;
+    margin: 0 !important;
+    color: #fff !important;
+}
+.debt-manage p {
+    margin: 0;
+}
+.em {
+    font-size: 23px;
+    width: 80%;
+    position: absolute;
+    left: -24%;
+    padding: 17px;
+    text-align: left;
+    top: -12em;
+    padding-bottom: 0;
+    background: #ffffff6e;
+    padding-left: 95px;
+}
+.long-invest{
+    font-size: 28px;
+    width: 79%;
+    position: absolute;
+    right: -31%;
+    padding: 17px;
+    text-align: left;
+    top: -2em;
+    padding-bottom: 0;
+}
+.long-invest h2 {
+    font-size: 37px;
+}
+.long-invest {
+    font-size: 28px;
+    width: 76%;
+    position: absolute;
+    right: -28%;
+    padding: 17px;
+    text-align: left;
+    top: -2em;
+    padding-bottom: 0;
+}
+.long-invest-mutual {
+    font-size: 28px;
+    width: 67%;
+    position: absolute;
+    right: -23%;
+    padding: 17px;
+    text-align: left;
+    top: -2em;
+    padding-bottom: 0;
+}
+.con {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+p.p-mutual {
+    position: absolute;
+    width: 31%;
+    left: 15%;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.works span {
+    display: block;
+}
+.works i {
+    display: block;
+    margin: 5px;
+}
+h2.mut-title {
+    font-size: 40px;
+    margin: -63px 0 94px 0;
+}
+.works {
+    font-size: 22px;
+    width: 32%;
+    position: absolute;
+    right: 88%;
+    padding: 17px;
+    top: 5em;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff0047;
+}
+span.ar {
+    position: absolute;
+    top: 114px;
+    left: 106%;
+    color: #ff0047;
+}
+span.ar i {
+    font-size: 79px !important;
+}
+.ar-1 {
+    position: absolute;
+    left: 82%;
+    top: 31%;
+}
+.solid-1 {
+    padding: 23px;
+    width: 119%;
+    top: -1.2em;
+    display: block;
+    position: absolute;
+    left: -11%;
+}
+.solid-1 h6 {
+    font-size: 43px;
+}
+.solid-1 .health {
+    width: 93%;
+}
+.solid-1 span:last-child {
+    background: linear-gradient(45deg, #a00000, #ff21da);
+    border-bottom: 1px solid #fff;
+    font-size: 55px !important;
+}
+.take {
+    position: absolute;
+    width: 56%;
+    right: -16%;
+    font-size: 51px;
+    top: -1em;
+}
+.take h2 {
+    padding: 12px;
+    background: #f90000;
+    color: #ffff !important;
+    font-size: 74px !important;
+}
+.kaiser-long {
+    font-size: 19px;
+    position: absolute;
+    width: 82%;
+    right: -14%;
+    text-align: left;
+    top: 5em;
+}
+.kaiser-long-2 {
+    font-size: 19px;
+    position: absolute;
+    width: 51%;
+    right: 14%;
+    text-align: left;
+    top: 7em;
+}
+.solid-2 {
+    position: absolute;
+    right: -18%;
+    top: 0em;
+}
+.solid-2 h6{
+    color: black !important;
+}
+.solid-2 span.debt, .solid-2 span.emergency {
+    background: #a5a5a5;
+    color: #3a3a3a !important;
+}
+.vid-1 {
+    width: 90%;
+    font-size: 21px;
+    text-align: center;
+    margin: -12px auto;
+}
+.vid-1 p, .vid-1 img{
+    margin: 0;
+}
+.take-1 {
+    position: absolute;
+    width: 33%;
+    right: -14%;
+    font-size: 30px;
+    background: #ff0000c4;
+    text-transform: uppercase;
+    color: #fff;
+    top: -2em;
+}
+th {
+    font-size: 23px;
+}
+tr td {
+    font-size: 36px;
+}
+tr td:first-child {
+    font-size: 27px;
+    width: 45%;
+}
+.about-r {
+    font-size: 29px;
+    position: absolute;
+    right: -4em;
+}
+.sect-1 img {
+    display: inline-block;
+    width: 46%;
+    margin-top: 161px;
+}
+.title h2 {
+    margin-top: 56px;
+}
+.partner-img {
+    position: absolute;
+    width: 149%;
+    left: -17%;
+    top: -25px;
+}
+.partner-img img {
+    float: left;
+    width: 30%;
+    height: 16em;
+}
+
